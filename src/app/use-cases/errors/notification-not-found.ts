@@ -1,7 +1,5 @@
-import { HttpException } from '@nestjs/common';
+export class NotificationNotFound {
+  public readonly message = 'Notification not found.';
 
-export class NotificationNotFound extends HttpException {
-  constructor() {
-    super('Notification not found.', 404);
-  }
+  public readonly statusCode = 404;
 }
