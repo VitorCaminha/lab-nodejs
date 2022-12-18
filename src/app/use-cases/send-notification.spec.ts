@@ -1,4 +1,4 @@
-import { FakeNotificationsRepository } from '../../../test/repositories/fake-notifications-repository';
+import { FakeNotificationsRepository } from '@test/repositories/fake-notifications-repository';
 
 import { SendNotification } from './send-notification';
 
